@@ -1,15 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Nov  3 12:47:38 2018
 
-@author: Hully
-"""
 
 import textwrap
 
-
-    
-filepath = ("C:/Users/Hully/Desktop/Python_f/newtext.txt")
+ # select the file   
+filepath = ("texto.txt") 
 
 # open de file
 with open(filepath) as t:
