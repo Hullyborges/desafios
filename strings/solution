@@ -1,0 +1,13 @@
+import textwrap
+
+"""Inserir texto em filetext"""
+
+filetext =   
+
+with open(filetext) as t:
+    file_data = t.read()
+
+texto = textwrap.wrap(file_data, width=40)
+for element in texto:
+    print(element)
+    t.close()
