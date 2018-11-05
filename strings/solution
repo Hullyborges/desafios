@@ -10,4 +10,6 @@ with open(filetext) as t:
 texto = textwrap.wrap(file_data, width=40)
 for element in texto:
     print(element)
-    t.close()
+   
+
+
